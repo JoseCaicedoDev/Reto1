@@ -1,0 +1,81 @@
+:root{
+  --primary-violet: hsl(257, 40%, 49%);
+}
+body{
+  background: var(--primary-violet);
+  background-image: url(/images/bg-mobile.svg);
+  background-repeat: no-repeat;
+/*   background-size: cover; */
+  max-width: 375px;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  color: rgb(250, 250, 250);
+  font-family: 'Open Sans', sans-serif;
+}
+.nav__image{
+  width: 40%;
+  margin: 35px 0;
+}
+nav, main, footer{
+  margin: 0 35px;
+}
+main{
+  text-align: center;
+}
+.main__image{
+  width: 100%;
+  margin: 20px 0;
+}
+.main__title{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+}
+.main__content{
+  font-size: 16px;
+  line-height: 20px;
+  color: gainsboro;
+}
+.main__button{
+  color: var(--primary-violet);
+  text-decoration: none;
+  background: rgb(250, 250, 250);
+  display: inline-block;
+  width: 200px;
+  height: 35px;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 35px;
+  box-shadow: 2px 2px 2px #36343481;
+  }
+.main__button:hover{
+  box-shadow: 2px 2px 2px #363434e0;
+}
+.footer__list{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+  gap: 20px;
+  height: 70px;
+  align-items: center;
+}
+.footer__list li{
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  justify-content: center;
+  border: 1px solid gainsboro;
+}
+.fab{
+  text-decoration: none;
+  color: gainsboro;
+/*   padding: 8px; */
+  font-size: 16px;
+}
